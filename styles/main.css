@@ -1,8 +1,12 @@
 body {
     margin: 0;
     font-family: 'Karla', sans-serif;
-    background-color: white;
+    background-image: url(../public/icons/image/1659242019512.jpg);
+    background-position: center;
+    background-size: cover;
 }
+
+
 .App{
     /* display: flex; */
     align-items: center;
@@ -15,12 +19,6 @@ body {
     display: flex;
     margin: 0 -1em;
 }
-
-.links a {
-    display: inline-block;
-    margin: 0 1em;
-}
-
 .logo{
     font-weight: bold;
     letter-spacing: 0.2em;
@@ -49,12 +47,18 @@ nav a {
     letter-spacing: 0.2em;
 }
 
-
-
 table, th, td {
     border: 1px solid black;
 }
 
 .container-fluid {
     padding: 0;
+}
+
+.col-6 {
+ color: white;    
+}
+
+h4{
+    color: white;
 }
